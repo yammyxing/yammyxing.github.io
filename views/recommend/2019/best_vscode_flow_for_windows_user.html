@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>在windows上打造最佳的vscode开发flow | yammy&#39;s blog</title>
+    <meta name="description" content="As a blog, share what I&#39;ve got recently.">
+    <link rel="icon" href="/favicon.ico&#39;">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.438dc5e5.css" as="style"><link rel="preload" href="/assets/js/app.f01c5cb9.js" as="script"><link rel="preload" href="/assets/js/5.2619f067.js" as="script"><link rel="preload" href="/assets/js/1.acbacdbc.js" as="script"><link rel="preload" href="/assets/js/22.3140e252.js" as="script"><link rel="prefetch" href="/assets/js/10.57ee40f4.js"><link rel="prefetch" href="/assets/js/11.a29d0a45.js"><link rel="prefetch" href="/assets/js/12.0ef04782.js"><link rel="prefetch" href="/assets/js/13.fa633377.js"><link rel="prefetch" href="/assets/js/14.bc6b5bc9.js"><link rel="prefetch" href="/assets/js/15.31fc5722.js"><link rel="prefetch" href="/assets/js/16.508ba283.js"><link rel="prefetch" href="/assets/js/17.fff200f7.js"><link rel="prefetch" href="/assets/js/18.231a9358.js"><link rel="prefetch" href="/assets/js/19.2c37aeea.js"><link rel="prefetch" href="/assets/js/20.7fe8b2b1.js"><link rel="prefetch" href="/assets/js/21.cea4a85a.js"><link rel="prefetch" href="/assets/js/23.76af5d18.js"><link rel="prefetch" href="/assets/js/24.b5896a69.js"><link rel="prefetch" href="/assets/js/3.03e3be47.js"><link rel="prefetch" href="/assets/js/4.521103f3.js"><link rel="prefetch" href="/assets/js/6.08617310.js"><link rel="prefetch" href="/assets/js/7.494b5420.js"><link rel="prefetch" href="/assets/js/8.83a9ab13.js"><link rel="prefetch" href="/assets/js/9.8d491429.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.438dc5e5.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container"><div><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.png" alt="yammy's blog" class="logo"> <span class="site-name">yammy's blog</span></a> <div class="links"><div class="color-picker"><a href="#" class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="theme-options"><!----> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox" checked="checked"></div></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/category/code.html" class="nav-link"><i class="iconfont undefined"></i>
+  code
+</a></li><li class="dropdown-item"><!----> <a href="/category/notes.html" class="nav-link"><i class="iconfont undefined"></i>
+  notes
+</a></li><li class="dropdown-item"><!----> <a href="/category/recommend.html" class="nav-link"><i class="iconfont undefined"></i>
+  recommend
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/category/code.html" class="nav-link"><i class="iconfont undefined"></i>
+  code
+</a></li><li class="dropdown-item"><!----> <a href="/category/notes.html" class="nav-link"><i class="iconfont undefined"></i>
+  notes
+</a></li><li class="dropdown-item"><!----> <a href="/category/recommend.html" class="nav-link"><i class="iconfont undefined"></i>
+  recommend
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>在windows上打造最佳的vscode开发flow</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装-linux-子系统" class="sidebar-link">安装 linux 子系统</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#打开-microsoft-store，选择喜爱的-linux-发行版" class="sidebar-link">打开 Microsoft Store，选择喜爱的 Linux 发行版</a></li><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#初始化" class="sidebar-link">初始化</a></li></ul></li><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装必备神器" class="sidebar-link">安装必备神器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装zsh" class="sidebar-link">安装zsh</a></li><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装oh-my-zsh" class="sidebar-link">安装oh my zsh</a></li><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#选择主题" class="sidebar-link">选择主题</a></li></ul></li><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装zsh插件" class="sidebar-link">安装zsh插件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#安装-node" class="sidebar-link">安装 node</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#解决git在windows-和-linux上差异" class="sidebar-link">解决git在windows 和 linux上差异</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#在vscode上切换终端" class="sidebar-link">在vscode上切换终端</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#配置" class="sidebar-link">配置</a></li><li class="sidebar-sub-header"><a href="/views/recommend/2019/best_vscode_flow_for_windows_user.html#增加切换快捷指令" class="sidebar-link">增加切换快捷指令</a></li></ul></li></ul></section></li></ul> </aside> <main class="page reco-hide"> <div class="page-title"><h1>在windows上打造最佳的vscode开发flow</h1> <hr> <div data-v-42a3120b><i class="iconfont reco-account" data-v-42a3120b><span data-v-42a3120b>yammyxing</span></i> <i class="iconfont reco-date" data-v-42a3120b><span data-v-42a3120b>8/2/2019</span></i> <span id="/views/recommend/2019/best_vscode_flow_for_windows_user.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-78a96807 data-v-42a3120b><i class="iconfont reco-eye" style="margin-right: .5rem" data-v-78a96807></i> <a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;" data-v-78a96807></a></span> <i class="iconfont reco-tag tags" data-v-42a3120b><span class="tag-item" data-v-42a3120b>
+      windows
+    </span><span class="tag-item" data-v-42a3120b>
+      vscode
+    </span><span class="tag-item" data-v-42a3120b>
+      wsl
+    </span></i></div></div> <div class="content default"><p>大家都知道，windows 上的 terminal 难用，但自从微软拥抱开源拥抱 linux 后，引入了子系统 linux 发行版，那用起来还真是不错的。</p> <h2 id="安装-linux-子系统"><a href="#安装-linux-子系统" aria-hidden="true" class="header-anchor">#</a> 安装 linux 子系统</h2> <p>实际上，官方有详细的<a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10" target="_blank" rel="noopener noreferrer">文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>一般来说，我会选择直接去应用商店去下载。</p> <h3 id="打开-microsoft-store，选择喜爱的-linux-发行版"><a href="#打开-microsoft-store，选择喜爱的-linux-发行版" aria-hidden="true" class="header-anchor">#</a> 打开 Microsoft Store，选择喜爱的 Linux 发行版</h3> <p>这里我选择 <a href="https://www.microsoft.com/zh-cn/p/ubuntu-1804-lts/9n9tngvndl3q?rtc=1&amp;activetab=pivot:overviewtab" target="_blank" rel="noopener noreferrer">Ubuntu 18.04 LTS<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><img src="https://i.loli.net/2019/12/27/8xlZoyX7EhJYpKP.png" alt="fawn8bnei946xbt9.png"></p> <p>打开链接，点击右上方<strong>获取</strong>，即可跳转应用商店，点击下载安装。</p> <h3 id="初始化"><a href="#初始化" aria-hidden="true" class="header-anchor">#</a> 初始化</h3> <p>安装后，必须先初始化新的发行版实例一次，然后才能使用它。需要输入用户名和密码。</p> <p><img src="https://i.loli.net/2019/12/27/jqr1uX2JwBn3bEW.png" alt="qdlvzf20dveoecdi.png"></p> <h2 id="安装必备神器"><a href="#安装必备神器" aria-hidden="true" class="header-anchor">#</a> 安装必备神器</h2> <h3 id="安装zsh"><a href="#安装zsh" aria-hidden="true" class="header-anchor">#</a> 安装zsh</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装zsh</span>
+$ <span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> zsh
+ <span class="token comment"># 将zsh设置为默认shell</span>
+$ chsh -s /bin/zsh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" aria-hidden="true" class="header-anchor">#</a> 安装oh my zsh</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装oh my zsh</span>
+$ <span class="token function">wget</span> https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - <span class="token operator">|</span> sh
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="选择主题"><a href="#选择主题" aria-hidden="true" class="header-anchor">#</a> 选择主题</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 打开配置文件</span>
+$ <span class="token function">vim</span> ~/.zshrc
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-.zshrc line-numbers-mode"><pre class="language-text"><code># 将ZSH-THEME改成ys
+ZSH_THEME=&quot;ys&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 更新配置</span>
+<span class="token variable">$source</span> ~/.zshrc
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="安装zsh插件"><a href="#安装zsh插件" aria-hidden="true" class="header-anchor">#</a> 安装zsh插件</h2> <p>git 是默认安装的
+z colored-man-pages 是自带的</p> <p>其他需要下载之后才能用</p> <p>安装 zsh-autosuggestions 插件</p> <p><code>$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions</code></p> <p>编辑～/.zshrc 文件</p> <p><code>$ vim ~/.zshrc</code></p> <div class="language-.zshrc line-numbers-mode"><pre class="language-text"><code>plugins=(git zsh-autosuggestions)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>安装 zsh-syntax-highlighting 插件</p> <p><code>$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</code></p> <p>编辑～/.zshrc 文件</p> <p><code>$ vim ~/.zshrc</code></p> <div class="language-.zshrc line-numbers-mode"><pre class="language-text"><code>plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><code>$ source ~/.zshrc</code></p> <h2 id="安装-node"><a href="#安装-node" aria-hidden="true" class="header-anchor">#</a> 安装 node</h2> <p>nvm是nodejs的一个版本管理工具</p> <div class="language- line-numbers-mode"><pre class="language-text"><code># install nvm using curl
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | zsh`
+
+# or install nvm using wget
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | zsh`
+
+# install lts
+nvm install 10.24.0
+
+# 检查安装是否成功
+node -v
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="解决git在windows-和-linux上差异"><a href="#解决git在windows-和-linux上差异" aria-hidden="true" class="header-anchor">#</a> 解决git在windows 和 linux上差异</h2> <p>在linux上
+<code>$ git config core.autocrlf true</code></p> <p>在cmd/powershell上
+<code>$ git config core.autocrlf</code></p> <p>参考：https://github.com/Microsoft/WSL/issues/1352</p> <h2 id="在vscode上切换终端"><a href="#在vscode上切换终端" aria-hidden="true" class="header-anchor">#</a> 在vscode上切换终端</h2> <p>理论上，vscode上只能设置一个默认终端，如果需要切换必须 reload 才行。</p> <p>但有一个插件可以帮我们解决问题：Shell launcher
+<img src="https://i.loli.net/2019/12/27/1qx2eyERVCszX9i.png" alt="ew2hhkmbbgmsra4i.png"></p> <h3 id="配置"><a href="#配置" aria-hidden="true" class="header-anchor">#</a> 配置</h3> <div class="language-settings.json line-numbers-mode"><pre class="language-text"><code>&quot;shellLauncher.shells.windows&quot;: [
+    {
+        &quot;shell&quot;: &quot;C:\\Windows\\System32\\cmd.exe&quot;,
+        &quot;label&quot;: &quot;cmd&quot;
+    },
+    {
+        &quot;shell&quot;: &quot;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe&quot;,
+        &quot;label&quot;: &quot;PowerShell&quot;
+    },
+    {
+        &quot;shell&quot;: &quot;C:\\Program Files\\Git\\bin\\bash.exe&quot;,
+        &quot;label&quot;: &quot;Git bash&quot;
+    },
+    {
+        &quot;shell&quot;: &quot;C:\\Windows\\System32\\wsl.exe&quot;,
+        &quot;label&quot;: &quot;WSL Bash&quot;
+    }
+]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h3 id="增加切换快捷指令"><a href="#增加切换快捷指令" aria-hidden="true" class="header-anchor">#</a> 增加切换快捷指令</h3> <p>打开快捷指令，搜索shellLauncher.launch，配置快捷键ctrl+shift+t</p> <div class="language-keybindings.json line-numbers-mode"><pre class="language-text"><code>[{
+    &quot;key&quot;: &quot;ctrl+shift+t&quot;,
+    &quot;command&quot;: &quot;shellLauncher.launch&quot;
+}]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>这样，每次只需要 ctrl+shift+t 快捷键，就可以一键切换终端。</p></div> <!----> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">12/27/2019, 7:42:06 AM</span></div></footer> <!----> </main> <div class="valine-wrapper" data-v-6835c30e><div id="valine" data-v-6835c30e></div></div> <div class="back-to-ceiling" style="right:1rem;bottom:3rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-d0bfeaa4 data-v-d0bfeaa4><i class="iconfont reco-up" data-v-d0bfeaa4></i></div></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f01c5cb9.js" defer></script><script src="/assets/js/5.2619f067.js" defer></script><script src="/assets/js/1.acbacdbc.js" defer></script><script src="/assets/js/22.3140e252.js" defer></script>
+  </body>
+</html>
